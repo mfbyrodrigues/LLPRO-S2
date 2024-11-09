@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+// “Área do círculo”. Faça um programa para calcular a área de uma circunferência.
+
+int main () {
+
+    float r, a, pi = 3.14;
+
+    printf ("Digite o valor do raio da circunferência: \n");
+    scanf ("%f", &r);
+
+    a = pi*pow(r, 2);
+    printf ("A área da circunferência é: %2.2f \n", a);
+
+    return 0;
+}
