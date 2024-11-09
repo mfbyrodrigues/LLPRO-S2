@@ -12,7 +12,7 @@ int main () {
     scanf ("%f", &din);
 
     troco = (din-vp);
-    printf ("O seu troco, em reais, será: %2.2f \n", troco);
+    printf ("O seu troco, em reais, será: %.2f \n", troco);
 
     return 0;
 }
