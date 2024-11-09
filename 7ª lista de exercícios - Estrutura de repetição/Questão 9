@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <locale.h>
+
+// Faça um programa que calcule e mostre a potência (x elevado a y) dos números de 5 a 20.  
+
+int main () { 
+	
+	setlocale (LC_ALL, "Portuguese");
