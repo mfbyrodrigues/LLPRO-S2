@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+// Escreva um programa que cálcule o perímetro de um terreno (Considere um quadrilátero.)
+
+int main () {
+
+	int p, l;
+
+	printf ("Digite os lados do terreno: \n");
+	scanf ("df", &l);
+	p = (l+l+l+l);
+	printf ("O perímetro é: %.2d \n", p);
+
+	return 0;
+}
