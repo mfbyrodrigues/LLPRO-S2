@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+// “Desenhando quadrados”. Faça um programa que imprima na tela a mensagem dentro do quadrado, como mostra a mensagem...
+
+int main () {
+
+	printf ("###################\n");
+	printf ("#                 #\n");
+	printf ("#                 #\n");
+	printf ("# Seja bem-vindo! #\n");
+	printf ("#                 #\n");
+	printf ("#                 #\n");
+	printf ("###################\n");
+
+	return 0;
+}
