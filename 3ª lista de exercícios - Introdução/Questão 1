@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+// “IMC simples”. Escreva um programa que, dada a massa e a altura de uma pessoa, mostre o resultado do IMC. Fórmula: imc = massa/(altura^2).
+
+int main () {
+
+    float m, al, imc;
+
+    printf ("Digite a sua massa, em KG: \n");
+    scanf ("%f", &m);
+    printf ("Digite a sua altura, em M: \n");
+    scanf ("%f", &al);
+
+    imc = m/pow(al, 2);
+    printf ("O seu IMC é de: %.2f \n", imc);
+
+    return 0;
+}
