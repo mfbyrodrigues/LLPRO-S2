@@ -12,3 +12,4 @@ int main () {
 	printf ("O novo valor em dólar é de: %.2f \n", d);
 
 	return 0;
+}
