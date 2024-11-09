@@ -10,7 +10,7 @@ int main () {
     scanf ("%f", &r);
 
     a = pi*pow(r, 2);
-    printf ("A área da circunferência é: %2.2f \n", a);
+    printf ("A área da circunferência é: %.2f \n", a);
 
     return 0;
 }
