@@ -5,16 +5,16 @@
 
 int main () {
 	
-    setlocale (LC_ALL, "Portuguese");
+	setlocale (LC_ALL, "Portuguese");
 
 	int resp = 1;
-	float n1, n2, n3, n4, media;
+	float num1, num2, num3, num4, media;
 	
-	while (resp==1) {
+	while (resp == 1) {
 		printf ("Digite quatro números: \n");
 		scanf ("%f%f%f%f", &n1, &n2, &n3, &n4);
 		
-		media = (n1+n2+n3+n4) / 4;
+		media = (num1+num2+num3+num4) / 4;
 		
 		printf ("Digite 1 para continuar e 0 para sair: \n");
 		scanf ("%d", &resp);
@@ -22,5 +22,5 @@ int main () {
     
     printf ("A média é: %f \n", media);
     
-    return 0;
+return 0;
 }
