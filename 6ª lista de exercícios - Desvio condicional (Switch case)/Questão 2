@@ -1,10 +1,16 @@
 #include <stdio.h>
 
-// Faça um programa para o IFCE Cedro. O programa mostra qual opção de curso integrado você deseja se matricular em 2025. OBS: 1 - Informática, 2 - Eletrotécnica e 3 - Mecânica.
+/* 
+Faça um programa para o IFCE Cedro. O programa mostra qual opção de curso integrado você deseja se matricular em 2025. 
+OBS:
+1 - Informática;
+2 - Eletrotécnica;
+3 - Mecânica.
+*/
 
 int main () {
 	
-int opcao;
+	int opcao;
 
 	printf ("Em quem você deseja votar? \n");
 	printf ("[1] - CANDIDATO 1 \n");
@@ -24,5 +30,5 @@ int opcao;
 			printf ("Opção inválida! \n");
 	}
 
-	return 0;
+return 0;
 }
