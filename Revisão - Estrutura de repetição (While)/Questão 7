@@ -7,16 +7,16 @@ int main () {
 	
   setlocale (LC_ALL, "Portuguese");
 
-	int quantidade, totalL = 0;
+	int quant, totalL = 0;
 	
 	printf ("Digite a quantidade comprada de livros ou digite 0 para sair: \n");
-	scanf ("%d", &quantidade);
+	scanf ("%d", &quantL);
 	
 	while (quantidade != 0) {
-		totalL = totalL + quantidade;
+		totalL = totalL + quantL;
 		
 		printf ("Digite a quantidade comprada de livros ou digite 0 para sair: \n");
-		scanf ("%d", &quantidade);
+		scanf ("%d", &quantL);
 	}
 	
 	printf ("Total de livros comprados: %d \n", totalL);
