@@ -7,14 +7,14 @@ int main () {
 	
     setlocale (LC_ALL, "Portuguese");
 
-	int cont = 0, multi = 0;
+	int cont = 0, multi;
 	
-	while (cont<=10) {
+	while (cont <= 10) {
 		multi = cont * 3;
 		printf ("%d \n", multi);
 		
-		cont = cont + 1;
+		cont++;;
 	}
     
-    return 0;
+return 0;
 }
