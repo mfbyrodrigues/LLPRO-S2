@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-// Elabore um algoritmo que receba um valor inteiro e informe se o valor recebudo é um número primo.
+// Elabore um algoritmo que receba um valor inteiro e informe se o valor recebido é um número primo.
 
 int main () {	
 
