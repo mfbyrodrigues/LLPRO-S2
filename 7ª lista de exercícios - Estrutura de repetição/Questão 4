@@ -16,11 +16,12 @@ int main () {
 
 		soma = soma + n;
 		media = soma/4;
-		cont = cont + 1;
+		
+	cont++;
 	}
 
 	printf ("O somatório dos números: %.2f \n", soma);
 	printf ("A média de todos eles: %.2f \n", media);
 
-	return 0;
+return 0;
 }
