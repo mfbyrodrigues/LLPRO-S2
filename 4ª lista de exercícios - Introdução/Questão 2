@@ -4,12 +4,14 @@
 
 int main () {
 
-	int p, l;
+	int perimetro, lados;
 
-	printf ("Digite os lados do terreno: \n");
-	scanf ("df", &l);
-	p = (l+l+l+l);
-	printf ("O perímetro é: %.2d \n", p);
+	printf ("Digite o tamanho dos lados do terreno: \n");
+	scanf ("%d", &lados);
+	
+	perimetro = (lados*4);
+	
+	printf ("O perímetro é: %.2d \n", perimetro);
 
-	return 0;
+return 0;
 }
