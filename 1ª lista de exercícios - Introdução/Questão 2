@@ -13,5 +13,5 @@ int main () {
   
 	printf ("Conversão para segundos: %.2f \n", convseg);
 
-	return 0;
+return 0;
 }
