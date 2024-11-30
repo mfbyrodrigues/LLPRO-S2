@@ -6,3 +6,17 @@
 int main () {
 
 	setlocale (LC_ALL, "Portuguese");
+	
+	int n = 1000;
+	
+	while (n <= 2000) {
+		
+		if (n % 11 != 0) {
+			printf ("%d \n", n);	
+		}
+	
+	n++;
+	}
+	
+return 0;
+}
