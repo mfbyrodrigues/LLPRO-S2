@@ -5,15 +5,16 @@
 
 int main () {
 	
-    setlocale (LC_ALL, "Portuguese");
+	setlocale (LC_ALL, "Portuguese");
 
 	int cont = 0, multi;
 	
 	while (cont <= 10) {
+		
 		multi = cont * 3;
 		printf ("%d \n", multi);
 		
-		cont++;;
+	cont++;
 	}
     
 return 0;
