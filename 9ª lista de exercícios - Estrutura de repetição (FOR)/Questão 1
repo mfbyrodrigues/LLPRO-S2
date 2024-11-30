@@ -5,17 +5,19 @@
 
 int main () {	
 
-setlocale(LC_ALL, "Portuguese");
+	setlocale(LC_ALL, "Portuguese");
 
-int n, cont, s = 0, resul;
+	int num, cont, soma = 0;
 	
-printf("Digite um número n qualquer: \n");
-scanf("%d", &n);
+	printf("Digite um número n qualquer: \n");
+	scanf("%d", &num);
 	
-for (cont=1; cont<= n ; cont++){
-	s= s + n;
-	resul = n + s;
-	printf("%d\n", resul);
+	for (cont=1; cont <= num; cont++) {
+		
+		soma = soma + num;
 	}
+	
+	printf ("Soma: %d \n", soma);
+	
 return 0;
 }
