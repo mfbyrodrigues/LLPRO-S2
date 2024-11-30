@@ -9,16 +9,17 @@ int main () {
     printf ("Insira dois números aleatórios: \n");
     scanf ("%f%f", &a, &b);
 
-    if (a>b) {
+    if (a > b) {
         printf ("Ordem crescente: \n");
-        printf ("%.0f \n", a);
         printf ("%.0f \n", b);
+        printf ("%.0f \n", a);
     }
-    if (b>a) {
+    
+    if (b > a) {
         printf ("Ordem crescente: \n");
-        printf ("%.0f \n", b);
         printf ("%.0f \n", a);
+        printf ("%.0f \n", b);
     }
 
-    return 0;
+return 0;
 }
