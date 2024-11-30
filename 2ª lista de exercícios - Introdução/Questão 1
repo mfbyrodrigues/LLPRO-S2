@@ -10,13 +10,11 @@ int main () {
 	printf ("Digite três números: \n");
 	scanf ("%f%f%f", &a, &b, &c);
 
-	// ATENÇÃO!!!!!!!!!!!!!! ORGANIZAR AS LINHAS ABAIXO:
-
 	printf ("As respostas são, respectivamente: \n");
-	printf("[1] %.1f\n", (a*b)/c);
-	printf("[2] %.1f\n", pow(a, 2)+b+5*c);
-	printf("[3] %.1f\n", a*b*c+b+(c/3)*5-1);
-	printf("[4] %.1f\n", pow((a*b*c),3)/2);
+	printf("[1] - %.2f \n", (a*b)/c);
+	printf("[2] - %.2f \n", pow(a, 2)+b+5*c);
+	printf("[3] - %.2f \n", a*b*c+b+(c/3)*5-1);
+	printf("[4] - %.2f \n", pow((a*b*c),3)/2);
 
-	return 0;
+return 0;
 }
