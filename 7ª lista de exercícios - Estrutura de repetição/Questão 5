@@ -7,15 +7,15 @@ int main () {
 	
 	setlocale (LC_ALL, "Portuguese");
 	
-	int n = 1;
+	int n = 0;
 	
-	printf ("TABUADA DE ADIÇÃO (DO NÚMERO 2): \n");
+	printf ("TABUADA DO 2 (ADIÇÃO): \n");
 	
 	while (n <= 10) {
 		printf("%d \n", n + 2);
 		
-		n = n + 1;
+	n++;
 	}
 	
-	return 0;
+return 0;
 }
