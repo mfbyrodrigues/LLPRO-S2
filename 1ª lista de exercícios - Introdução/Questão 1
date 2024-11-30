@@ -11,8 +11,9 @@ int main () {
 	printf ("E o total de combustível gasto, em L: \n");
 	scanf ("%f", &combgT);
 	
-	consuM = (disT/combgT);
-	prinf ("O consumo médio do automóvel é de: %.2f\n", consuM);
+	consuM = (distT/combgT);
+
+	printf ("O consumo médio do automóvel é de: %.2f\n", consuM);
 	
-	return 0;
+return 0;
 }
