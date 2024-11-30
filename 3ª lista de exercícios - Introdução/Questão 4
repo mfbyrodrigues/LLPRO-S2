@@ -4,13 +4,13 @@
 
 int main () {
 
-    float porDIA, porMES, taxaimp;
+    float porDIA, porMES, taxa_imposto;
 
     porDIA = (40*8);
     porMES = (porDIA*20);
-    taxaimp = (porMES*0.15);
+    taxa_imposto = (porMES*0.15);
 
-    printf ("O seu salário no final do mês será, em reais: %.2f \n", taxaimp);
+    printf ("O salário desse trabalhador, no final do mês, em reais, será: %.2f \n", taxa_imposto);
 
-    return;
+return 0;
 }
