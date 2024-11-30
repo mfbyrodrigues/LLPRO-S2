@@ -1,1 +1,9 @@
+#include <stdio.h>
+#include <locale.h>
 
+// Faça um programa que determine e mostre os 4 primeiros divisíveis de 3, considerando
+números inteiros positivos.  
+
+int main () {
+
+	setlocale (LC_ALL, "Portuguese");
