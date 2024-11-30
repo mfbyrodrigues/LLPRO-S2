@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-//
+// Faça um algoritmo que dê um menu de opções acerca das quatro opereções básicas da matemática, e depois peça que insira dois números quaisquer. Assim, conforme a escolha no menu, possa operar e mostrar a operação desejada.
 
 int main () {
 	
