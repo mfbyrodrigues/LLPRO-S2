@@ -4,12 +4,14 @@
 
 int main () {
 
-	float real, d;
+	float real, dolar;
 
 	printf ("Digite o valor em reais: \n");
 	scanf ("%f", &real);
-	d = (real*6);
-	printf ("O novo valor em dólar é de: %.2f \n", d);
+	
+	dolar = (real*6);
+	
+	printf ("O novo valor em dólar é de: %.2f \n", dolar);
 
-	return 0;
+return 0;
 }
