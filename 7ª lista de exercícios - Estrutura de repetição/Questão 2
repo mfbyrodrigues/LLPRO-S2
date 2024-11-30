@@ -11,6 +11,7 @@ int main () {
 	int cont = 0;
 	
 	while (cont <= 5) {
+		
 		printf("Digite um número: \n");
 		scanf("%d", &n);
 		
@@ -23,8 +24,8 @@ int main () {
 			printf ("Seu número é ímpar. Então, somado com três: %d \n", n);
 		}
 		
-		cont = cont + 1;
+		cont++;
 	}
 	
-	return 0;
+return 0;
 }
