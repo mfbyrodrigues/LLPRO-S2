@@ -15,7 +15,7 @@ int main () {
 		printf("Digite um número: \n");
 		scanf("%d", &n);
 		
-		if (n % 2 == 0){
+		if (n % 2 == 0) {
 			n = n + 2;	
 			printf ("Seu número é par. Então, somado com dois: %d \n", n);
 		}
@@ -24,7 +24,7 @@ int main () {
 			printf ("Seu número é ímpar. Então, somado com três: %d \n", n);
 		}
 		
-		cont++;
+	cont++;
 	}
 	
 return 0;
