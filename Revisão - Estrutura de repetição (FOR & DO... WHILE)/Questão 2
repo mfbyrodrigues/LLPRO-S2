@@ -7,11 +7,16 @@ OBS: fatorial é uma multiplicação de número de forma decrescente.
 Exemplo: 3! = 3 * 2 * 1 = 6.
 *\
 
-int main () {
-	
-	setlocale (LC_ALL, "Portuguese");
+int main(){
 
-  
+int i, j, fat;
 
-return 0;
+	if ( i % 2 == 1){
+		fat = 1
+	for (j = 1; j <= i; j = j + 1){
+		fat = fat * j;
+	}
+		printf("O fatorial é: %d\n", fat);
+	}
+	return 0;
 }
