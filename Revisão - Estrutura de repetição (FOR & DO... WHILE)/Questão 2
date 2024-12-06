@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <locale.h>
+
+/*
+Elabre um programa que apresente como resultado o valor fatorial dos números ímpares situados na faixa númerica de 1 à 10.
+OBS: fatorial é uma multiplicação de número de forma decrescente.
+Exemplo: 3! = 3 * 2 * 1 = 6.
+*\
+
+int main () {
+	
+	setlocale (LC_ALL, "Portuguese");
+
+  
+
+return 0;
+}
