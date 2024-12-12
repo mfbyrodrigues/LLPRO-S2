@@ -1,19 +1,23 @@
 #include <stdio.h>
 #include <locale.h>
 
+// Faça um programa que apresente o resultado da soma e média aritmética dos números situados na faixa de 50 a 70.
+
 int main () {
 	
 	setlocale (LC_ALL, "Portuguese");
 	
-	int som = 50,contm;
+	float soma = 0, media = 0;
 	
-	
-	for (int num = 50; num <= 70; num = num + 1){
-		som = som + num;
-		contm = contm + 1;
+	for (int n = 50; n <= 70; n++) {
+		
+		soma = soma + n;
 	}
-	printf("Soma: %d\n", som);
-	printf("Média: %d", som / contm);
+	
+	media = soma/20;
+	
+	printf ("Soma: %.0f \n", soma);
+	printf ("Média: %.0f \n", media);
 	
 	return 0;
 }
