@@ -1,2 +1,2 @@
-# LLPRO-CodeCompleted
-Repositório destinado às resoluções da disciplina de Lógica e Linguagem de Programação (C).
+# LLPRO-S2
+Repositório destinado à disciplina de <strong> Lógica e Linguagem de Programação </strong> com a linguagem C.
