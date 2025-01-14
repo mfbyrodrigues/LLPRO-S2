@@ -1,2 +1,2 @@
-# LLPRO-S2
-Repositório destinado à disciplina de <strong> Lógica e Linguagem de Programação, </strong> baseada nos fundamentos da linguagem C.
+# Lógica e Linguagem de Programação
+Repositório destinado à disciplina de Lógica e Linguagem de Programação, utilizando os princípios e fundamentos da linguagem C.
