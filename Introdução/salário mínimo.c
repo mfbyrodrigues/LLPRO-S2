@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-// “Salário”. Um trabalhador ganha por horas trabalhadas. 1h de trabalho vale 40 reais. Se esse profissional trabalhar 1 mês, apenas de segunda à sexta, qual será o salário recebido? Lembre-se de descontar 15% de impostos pagos.
+/* Um trabalhador ganha por horas trabalhadas. 1h de trabalho vale 40 reais.
+Se esse profissional trabalhar 1 mês, apenas de segunda à sexta, qual será o salário recebido?
+Lembre-se de descontar 15% de impostos pagos.
+*/
 
 int main () {
 
