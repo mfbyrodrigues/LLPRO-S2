@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-// Descrição: Calcule o consumo médio de um automóvel sendo fornecidos a distância total percorrida, em KM, e o total de combustível gasto em L. Entrada: O programa lê o valor da distância e a quantidade de combustível. Saída: Mostra o consumo médio do automóvel.
+/* Calcule o consumo médio de um automóvel sendo fornecidos a distância total percorrida, em KM, e o total de combustível gasto em L.
+Entrada: O programa lê o valor da distância e a quantidade de combustível. Saída: Mostra o consumo médio do automóvel.
+*/
 
 int main () {
 
