@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// “Desenhando quadrados”. Faça um programa que imprima na tela uma mensagem dentro do quadrado. 
+// Faça um programa que imprima na tela uma mensagem dentro do quadrado. 
 
 int main () {
 
