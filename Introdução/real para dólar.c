@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Faça um programa na linguagem C para converter um valor real em dólar. Considere 1 real = 6 dólares.
+// Faça um programa para converter um valor real em dólar. Considere 1 real = 6 dólares.
 
 int main () {
 
