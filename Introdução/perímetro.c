@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Escreva um programa que cálcule o perímetro de um terreno (Considere um quadrilátero.)
+// Escreva um programa que cálcule o perímetro de um terreno (Considere um quadrilátero).
 
 int main () {
 
