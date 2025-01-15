@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-// “Quantos segundos?”. Se um minuto tem 60 segundos, quantos segundos existem em X minutos? Escreva um programa que receba a quantidade de minutos e imprima quantos segundos existem.
+/* Se um minuto tem 60 segundos, quantos segundos existem em X minutos?
+Escreva um programa que receba a quantidade de minutos e imprima quantos segundos existem.
+*/
 
 int main () {
 
