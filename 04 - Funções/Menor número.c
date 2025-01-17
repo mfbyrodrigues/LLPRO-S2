@@ -19,7 +19,7 @@ int MenorNumero (int n1, int n2) { // Cabeçalho da função: tipo de função, 
 
 int main () { // Função principal do programa
 
-	setlocale(LC_ALL, "Portuguese");
+	setlocale (LC_ALL, "Portuguese");
 	
 	int n1, n2, resultado; // Declaração de variáveis
 	
