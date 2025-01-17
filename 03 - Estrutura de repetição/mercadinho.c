@@ -5,6 +5,7 @@
 calcule e mostre o valor a ser pago por produto (preço * quantidade) e o total do pedido. 
 Considere que o cliente deve informar quando o pedido deve ser encerrado.  
 */
+
 int main () {
 
 	setlocale (LC_ALL, "Portuguese");
