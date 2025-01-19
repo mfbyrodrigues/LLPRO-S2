@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <locale.h>
 
-/* Faça um programa que calcule e mostre valores de graus Celsius e graus Fahrenheit, cujos graus variem de 40 a 70 de 1 em 1.
+/*
+Faça um programa que calcule e mostre valores de graus Celsius e graus Fahrenheit, cujos graus variem de 40 a 70 de 1 em 1.
 A conversão de graus Fahrenheit (F) para graus Celsius (C) é dada por: 5/9 * (F-32);
 A conversão de graus Celsius (C) para graus Fahrenheit (F) é dada por: (9/5*C)+32.
 */
