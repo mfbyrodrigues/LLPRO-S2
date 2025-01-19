@@ -5,9 +5,7 @@
 
 // Escreva uma função que receba dois números inteiros retorne o menor número.
 
-int MenorNumero (int n1, int n2) { // Cabeçalho da função: tipo de função, identificador e passagem de parâmetro
-
-	int resultado; // Declaração de variáveis
+int MenorNumero (int n1, int n2) { // Cabeçalho da função: tipo de retorno, identificador e passagem de parâmetro
 	
 	if (n1 < n2) {
 		return n1;	
@@ -24,7 +22,7 @@ int main () { // Função principal do programa
 	int n1, n2, resultado; // Declaração de variáveis
 	
 	printf ("Digite dois números: \n");
-	scanf ("%d%d", &n1, &n2);
+	scanf ("%d %d", &n1, &n2);
 	
 	resultado = MenorNumero (n1, n2); // Chamada da função
 	
