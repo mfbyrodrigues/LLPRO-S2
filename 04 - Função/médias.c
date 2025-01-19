@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <conio.h>
 #include <locale.h>
-#include <math.h>
 
 /* 
 Elabore uma função que receba três notas de um aluno como parâmetro e uma letra. Se a
