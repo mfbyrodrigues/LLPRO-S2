@@ -20,7 +20,7 @@ int Potencia (int base, int expoente) {
 	}
 	else {
 		
-		return 404;
+		return -1;
 	}
 }
 
@@ -28,21 +28,23 @@ int main () {
 	
 	setlocale (LC_ALL, "Portuguese");
 	
-	int resultado, base, expoente;
+	int base, expoente, resultado;
 	
 	printf ("Número para base: \n");
 	scanf ("%d", &base);
+	
 	printf ("Número para expoente: \n");
 	scanf ("%d", &expoente);
 	
-	if (resultado == 404) {
+	resultado = Potencia (base, expoente);
+	
+	if (resultado == -1) {
 		
-		printf ("Error 404. Tente, para o expoente, um número inteiro maior ou igual a 1! \n");
+		printf ("Ops... Tente, para o expoente, um número inteiro maior ou igual a 1! \n");
 	}
 	else {
 		
-		resultado = Potencia (base, expoente);
-		printf ("O resultado dessa potência é: %d \n", resultado);	
+		printf ("O resultado dessa potênciação é: %d \n", resultado);	
 	}
 
 	return 0;
