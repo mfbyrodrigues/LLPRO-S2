@@ -4,28 +4,28 @@
 #include <locale.h>
 
 /*
-Elabore um programa para classificar o atendimento dos clientes de uma lotérica de acordo com a prioridade de idade.
-O programa deve solicitar ao usuário o ano de nascimento e através do uso de função o programa calcula a idade
-e classifica o atendimento de acordo com a tabela abaixo:
+Elabore um programa para classificar o atendimento dos clientes de uma lotérica de acordo com a prioridade
+de idade. O programa deve solicitar ao usuário o ano de nascimento e atraves do uso de função o programa
+calcula a idade e classifica o atendimento de acordo com a tabela abaixo...
 */
 
-int ClassificarPrioridade (int idade) {
+char ClassificarAtendimento (int idade) {
 	
-	if (13 >= idade) {
+	if (idade < 13) {
 		
-		return 1;
+		return 'C'; // Criança
 	}
-	if (14 <= idade && idade <= 21) {
+	else if (idade >= 13 && idade <= 21) {
 		
-		return 3;
+		return 'A'; // Adolescente
 	}
-	if (22 <= idade && idade <= 60) {
+	else if (idade >= 22 && idade <= 60) {
 		
-		return 2;
+		return 'D'; // Adulto
 	}
-	if (idade > 60) {
+	else if (idade > 60) {
 		
-		return 4;
+		return 'I'; // Idoso
 	}
 }
 
@@ -33,28 +33,31 @@ int main () {
 	
 	setlocale (LC_ALL, "Portuguese");
 	
-	int idade, resposta;
+	int ano_nascimento, idade;
+	char resposta;
 	
-	printf ("Digite sua idade abaixo: \n");
-	scanf ("%d", &idade);
+	printf ("Digite seu ano de nascimento: \n");
+	scanf ("%d", &ano_nascimento);	
 	
-	resposta = ClassificarPrioridade (idade);
+	idade = (2025 - ano_nascimento);
 	
-	if (resposta == 1) {
+	resposta = ClassificarAtendimento (idade);
+
+	if (resposta == 'C') {
 		
-		printf ("Criança deve estar acompanhada de um adulto para atendimento.");
+		printf ("Criança deve está acompanhada de adulto para atendimento. \n");
 	}
-	if (resposta == 3) {
+	else if (resposta == 'A') {
 		
-		printf ("Fila comum – Sem prioridade.");
+		printf ("Fila comum - Sem prioridade. \n");
 	}
-	if (resposta == 2) {
+	else if (resposta == 'D') {
 		
-		printf("Fila comum – Sem prioridade.");
+		printf ("Fila comum - Sem prioridade. \n");
 	}
-	if (resposta == 4) {
+	else if (resposta == 'I') {
 		
-		printf("Fila prioritária.");
+		printf ("Fila prioritária. \n");
 	}
 	
 	return 0;
