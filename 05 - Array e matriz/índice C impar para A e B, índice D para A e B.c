@@ -5,8 +5,8 @@
 
 /*
 Ler 6 elementos para matriz A e B. Construir uma matriz C e D de mesmo tamanho,
-sendo que C deverá ser formada pelos elementos de Índice ímpar das matrizes A e B e a
-matriz D deverá ser formada pelos elementos de Índice par das matrizes A e B.
+sendo que C deverá ser formada pelos elementos de índice ímpar das matrizes A e B e a
+matriz D deverá ser formada pelos elementos de índice par das matrizes A e B.
 */
 
 int main () {
