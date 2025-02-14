@@ -67,7 +67,7 @@ Aqui adicionarei anotações e códigos feitos da disciplina.
 ## Referências
 
 - Documentação oficial da linguagem C;
-- Livros e materiais recomendados durante o curso;
+- Livros e materiais recomendados durante a disciplina;
 - Aulas práticas fornecidas pela professora.
 
 ##
