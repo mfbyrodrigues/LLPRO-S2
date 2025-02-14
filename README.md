@@ -68,7 +68,7 @@ Aqui adicionarei anotações e códigos feitos da disciplina.
 
 - Documentação oficial da linguagem C;
 - Livros e materiais recomendados durante o curso;
-- Aulas práticar fornecidas pela professora.
+- Aulas práticas fornecidas pela professora.
 
 ##
 
